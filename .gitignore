@@ -1,2 +1,17 @@
 /config.json
 __pycache__/
+# secrets guard (HUB tools/guard_install.py); do not edit inside the block
+.env
+.env.*
+!.env.example
+*.pem
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.keychain-db
+.chrome/
+**/.chrome/
+**/Default/Cookies
+**/Default/Login Data
+# end secrets guard
